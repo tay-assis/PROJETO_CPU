@@ -15,4 +15,4 @@ END Tri_Stage;
 ARCHITECTURE Behavior_Buffer OF Tri_Stage IS 
 BEGIN
     Data_out <= Data_in WHEN Enable = '1' ELSE (OTHERS => 'Z');
-END Behavior_Buffer;
+END Behavior_Buffer; -- algo
